@@ -1,0 +1,119 @@
+/* REGOLE GENERALI */
+body {
+  background: #fff;
+}
+
+.row > div > h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .row > div > h1 {
+    font-size: 45px;
+  }
+}
+
+/* HEADER */
+
+/* JUMBOTRON */
+section.jumbotron {
+  background: url(img/jumbo.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  margin-bottom: auto;
+}
+
+section.jumbotron p {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.title_one {
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 3px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.title_one h3 {
+  text-align: center;
+  color: #031b4e;;
+  font-weight: bold;
+}
+.title_one .blue {
+  color: #0248ff;
+}
+.title_one input {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  padding: 10px 5px;
+  margin: 5px 0px;
+  outline-color: #0248ff;
+}
+.title_one button {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.jumbotron > .container > .row > div > .title_one p {
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+
+.title_one .account {
+  background-color: #0248ff;
+  color: white;
+  border: 1px solid #0248ff;
+  box-shadow: 2px 2px 5px 1px #888888;
+}
+.title_one .signup {
+  border: 0px;
+  background: url(img/g.png);
+  background-size: 20px 20px;
+  background-position: 7px;
+  box-shadow: 2px 2px 5px 1px #888888;
+  background-repeat: no-repeat;
+}
+
+/* MAIN */
+
+/* TABELLA LOGHI */
+.tabella_loghi {
+  text-align: center;
+  background-color: #f3f5f9;
+  padding: 60px 0px;
+}
+
+.tabella_loghi h5 {
+  font-weight: bold;
+}
+
+.loghi {
+  margin: 25px 0px;
+}
+
+.colonna {
+  height: 120px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border: 1px solid black;
+}
