@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Digital Ocean</title>
   </head>
   <body>
@@ -15,11 +17,11 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-xs-12 col-sm-7">
+            <div class="col-sm-12 col-md-7 col-lg-12">
               <h1>The simplest cloud platform for developers & teams</h1>
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infastructure easy for teams and business, wheter you're running one virtual machine or then thousand.</p>
             </div>
-            <div class="col-xs-12 col-sm-5">
+            <div class="col-sm-12 col-md-5 col-lg-12">
               <div class="title_one">
                 <h3>Deploy your app in seconds.</h3>
                 <h3 class="blue">Get started now.</h3>
@@ -45,27 +47,27 @@
           <h5>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h5>
 
           <div class="row loghi">
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
-              <div id="doker" class="logo">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
+              <div id="docker" class="logo">
               </div>
             </div>
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
               <div id="gitlab" class="logo">
               </div>
             </div>
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
               <div id="slack" class="logo">
               </div>
             </div>
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
-              <div id="ashi" class="logo">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
+              <div id="hashi" class="logo">
               </div>
             </div>
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
               <div id="wework" class="logo">
               </div>
             </div>
-            <div class="colonna col-xs-6 col-md-2 col-lg-2">
+            <div class="colonna col-sm-6 col-md-2 col-lg-2">
               <div id="splunk" class="logo">
               </div>
             </div>
@@ -76,6 +78,58 @@
 
         </div>
       </div>
+
+
+      <!-- DEPLOY AND SCALE -->
+        <div class="container">
+
+          <div class="title_row">
+            <h2>Deploy and scale seamlessly</h2>
+            <p class="subtitle_h2">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2 col-md-3 col-md-offset-1">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="cont_title_links"><a class="titoli_links nav-link active" id="v-pills-deploy-tab" data-toggle="pill" href="#v-pills-deploy" role="tab" aria-controls="v-pills-deploy" aria-selected="true">Deploy</a></div>
+                <div class="cont_title_links"><a class="titoli_links nav-link" id="v-pills-deploy-tab" data-toggle="pill" href="#v-pills-deploy" role="tab" aria-controls="v-pills-deploy" aria-selected="true">Scale</a></div>
+                <div class="cont_title_links"><a class="titoli_links nav-link" id="v-pills-deploy-tab" data-toggle="pill" href="#v-pills-deploy" role="tab" aria-controls="v-pills-deploy" aria-selected="true">Store</a></div>
+                <div class="cont_title_links"><a class="titoli_links nav-link" id="v-pills-deploy-tab" data-toggle="pill" href="#v-pills-deploy" role="tab" aria-controls="v-pills-deploy" aria-selected="true">Secure</a></div>
+                <div class="cont_title_links"><a class="titoli_links nav-link" id="v-pills-deploy-tab" data-toggle="pill" href="#v-pills-deploy" role="tab" aria-controls="v-pills-deploy" aria-selected="true">Monitor</a></div>
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-7 col-sm-offset-1">
+              <div class="tab-content" id="v-pills-tabContent">
+                <!-- primo tab -->
+                <div class="tab-pane fade show in" id="v-pills-deploy" role="tabpanel" aria-labelledby="v-pills-deploy-tab">
+                  <div class="row_inside_tab row">
+                    <div class="quadrati col-sm-6">
+                      <img src="img/ico1.svg" alt="Cluster">
+                      <h4>Cluster deplouments</h4>
+                      <p>Provision multiple Droplets (virtual machines) in seconds with ou control panel, CLI, or directly against our API</p>
+                    </div>
+                    <div class="quadrati col-sm-6">
+                      <img src="img/ico2.svg" alt="Compute types">
+                      <h4>Optimized compute types</h4>
+                      <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                    </div>
+                    <div class="quadrati col-sm-6">
+                      <img src="img/ico4.svg" alt="Global">
+                      <h4>Global availability</h4>
+                      <p>Deploy to any of our data center regions around the world.<p>
+                    </div>
+                    <div class="quadrati col-sm-6">
+                      <img src="img/ico3.svg" alt="Apps">
+                      <h4>One-click Apps</h4>
+                      <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
     </main>
 
