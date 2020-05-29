@@ -1,4 +1,10 @@
 /* REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #fff;
 }
@@ -219,6 +225,7 @@ section.jumbotron p {
 .row_inside_tab img {
   width: 40px;
 }
+
 
 .quadrati {
   padding: 10px;
