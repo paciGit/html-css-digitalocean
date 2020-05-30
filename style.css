@@ -1,4 +1,4 @@
-/* REGOLE GENERALI */
+/* REGOLE GENERALI ------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -43,14 +43,53 @@ h2 {
   }
 }
 
-/* MOBILE */
-@media screen and (max-width: 767px) {
-  h2 {
-    margin-top: 60px;
-  }
+/* HEADER -------------------------------*/
+
+/* NAVBAR */
+
+.ocean_container {
+  padding: 5px 30px 5px 10px;
 }
 
-/* HEADER */
+.ocean_navbar a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ocean_navbar > .ocean_container a:hover {
+  color: #0069ff;
+}
+
+.ocean_navbar button {
+  padding: 10px 15px;
+  margin: 3px;
+  background: transparent;
+  border: 1px solid #0069ff;
+  color: #0069ff;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.ocean_navbar button:hover {
+  background-color: #0069ff;
+  color: #fff;
+  border-color: #0069ff;
+  transition: 0.7s;
+}
+
+.nav_logo {
+  height: 100%;
+  padding: 0px 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.ocean_navbar a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 /* JUMBOTRON */
 section.jumbotron {
@@ -111,9 +150,9 @@ section.jumbotron p {
 }
 
 .title_one .account {
-  background-color: #0248ff;
+  background-color: #0069ff;
   color: white;
-  border: 1px solid #0248ff;
+  border: 1px solid #0069ff;
   box-shadow: 2px 2px 5px 1px #888888;
 }
 .title_one .signup {
@@ -125,7 +164,7 @@ section.jumbotron p {
   background-repeat: no-repeat;
 }
 
-/* MAIN */
+/* MAIN ---------------------------*/
 
 /* TABELLA LOGHI */
 .tabella_loghi {
@@ -226,6 +265,10 @@ section.jumbotron p {
   width: 40px;
 }
 
+.row_inside_tab.row {
+  padding-left: 15px;
+  padding-top: 10px;
+}
 
 .quadrati {
   padding: 10px;
