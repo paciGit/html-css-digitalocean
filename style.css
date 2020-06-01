@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 h2 {
@@ -30,6 +30,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   margin: 25px 0px 45px 0px;
+  color: #393d52;
 }
 
 /* TABLET */
@@ -43,7 +44,7 @@ h2 {
   }
 }
 
-/* HEADER -------------------------------*/
+/* HEADER --------------------------------------*/
 
 /* NAVBAR */
 
@@ -164,7 +165,7 @@ section.jumbotron p {
   background-repeat: no-repeat;
 }
 
-/* MAIN ---------------------------*/
+/* MAIN ---------------------------------*/
 
 /* TABELLA LOGHI */
 .tabella_loghi {
@@ -241,8 +242,8 @@ section.jumbotron p {
 .titoli_links {
   font-size: 16px;
   padding: 18px 28px;
-  margin: 0px;
-  color: rgba(3,27,78,0.5);
+  margin: 0;
+  color: rgba(3, 27, 78, 0.5);
   border-left: 2px solid #e5e8ed;
 }
 
@@ -272,4 +273,67 @@ section.jumbotron p {
 
 .quadrati {
   padding: 10px;
+}
+
+/* SLIDES & CAROUSEL */
+.carousel_scroll {
+  background-color: #f3f5f9;
+  padding-top: 50px;
+  /* padding-left: 130px; */
+  text-align: center;
+}
+
+.slidescarousel {
+  background-color: #f3f5f9;
+  padding: 60px 0px;
+}
+
+.freccia i:hover {
+  cursor: pointer;
+}
+
+.title-row.row h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #031b4e;
+}
+
+.carousel_img img {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel_img p {
+  text-align: center;
+  padding: 20px 5px;
+  font-weight: 300;
+  color: grey;
+}
+
+.carousel-slider.row span {
+  font-size: 35px;
+  color: #3e3e3e;
+  display: inline-block;
+  padding-top: 200px;
+}
+
+/* DESKTOP */
+@media screen and (max-width: 991px) {
+  .carousel-slider.row span {
+    font-size: 30px;
+    color: #3e3e3e;
+    display: inline-block;
+    padding-top: 120px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .freccia {
+    display: none;
+  }
+
+  .carousel_scroll {
+    padding-left: none;
+  }
 }
