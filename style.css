@@ -18,19 +18,26 @@ body {
   padding-bottom: 40px;
 }
 
-h2 {
+.title_row h2 {
+  font-size: 35px;
   font-weight: bold;
-  text-align: center;
-  font-size: 38px;
   color: #031b4e;
-  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-.subtitle_h2 {
-  font-size: 20px;
-  text-align: center;
-  margin: 25px 0px 45px 0px;
-  color: #393d52;
+.title_row p,
+div > p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #61656e;
+  padding-bottom: 15px;
+}
+
+div > h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #031b4e;
 }
 
 /* TABLET */
@@ -44,7 +51,7 @@ h2 {
   }
 }
 
-/* HEADER --------------------------------------*/
+/* HEADER -------------------------------------------*/
 
 /* NAVBAR */
 
@@ -118,7 +125,7 @@ section.jumbotron p {
 
 .title_one h3 {
   text-align: center;
-  color: #031b4e;;
+  color: #031b4e;
   font-weight: bold;
 }
 
@@ -165,7 +172,7 @@ section.jumbotron p {
   background-repeat: no-repeat;
 }
 
-/* MAIN ---------------------------------*/
+/* MAIN -----------------------------------------------*/
 
 /* TABELLA LOGHI */
 .tabella_loghi {
@@ -239,6 +246,19 @@ section.jumbotron p {
   padding-top: 80px;
 }
 
+.title_row > h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #031b4e;
+}
+
+.title_row > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #61656e;
+}
+
 .titoli_links {
   font-size: 16px;
   padding: 18px 28px;
@@ -275,11 +295,9 @@ section.jumbotron p {
   padding: 10px;
 }
 
-/* SLIDES & CAROUSEL */
+/* SLIDES & CAROUSEL (RIFERIMENTO A DUE SEZIONI)----------------------- */
 .carousel_scroll {
   background-color: #f3f5f9;
-  padding-top: 50px;
-  /* padding-left: 130px; */
   text-align: center;
 }
 
@@ -292,29 +310,33 @@ section.jumbotron p {
   cursor: pointer;
 }
 
-.title-row.row h2 {
-  font-size: 35px;
-  font-weight: bold;
-  color: #031b4e;
-}
-
 .carousel_img img {
   width: 100%;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .carousel_img p {
   text-align: center;
-  padding: 20px 5px;
+  padding: 10px 5px;
   font-weight: 300;
-  color: grey;
+  color: #61656e;
 }
 
-.carousel-slider.row span {
+.carousel_slider.row span {
   font-size: 35px;
   color: #3e3e3e;
   display: inline-block;
   padding-top: 200px;
+}
+
+.freccia.left > span {
+  color: grey;
+}
+
+.circle i {
+  color: #031b4e;
+  border-color: #031b4e;
 }
 
 /* DESKTOP */
@@ -336,4 +358,77 @@ section.jumbotron p {
   .carousel_scroll {
     padding-left: none;
   }
+}
+
+/* FEATURES---------------------------------------- */
+.row_icons > div > img {
+  padding-top: 20px;
+}
+
+.row_icons a {
+  font-weight: bold;
+}
+
+/* AREA CONNECTION SPEED */
+.connection_speed {
+  background: #031B4E url(img/data-center-map.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.connection_speed h2 {
+  color: white;
+}
+
+.connection_speed td {
+  border-bottom: 1px solid rgba(172, 172, 172, 0.5);
+  border-top: none;
+  font-size: 13px;
+}
+
+.area {
+  opacity: 0.6;
+}
+
+.test {
+  text-align: right;
+  color: #00d7d2;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.test:hover {
+ color: #0069ff;
+}
+
+.area_table {
+ margin: 60px 0px;
+}
+
+/* GET STARTED */
+.get_started {
+  background: #031b4e;
+}
+
+.get_started > .container {
+  text-align: center;
+}
+
+.get_started h2 {
+  font-size: 40px;
+  color: white;
+  margin: 60px 0px 20px 0px;
+}
+
+.get_started button {
+  color: #0069ff;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.get_started button:hover {
+  background-color: #cfcfcf;
+  color: #0069ff;
 }
