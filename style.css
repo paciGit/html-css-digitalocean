@@ -9,13 +9,14 @@ body {
   background: #fff;
 }
 
+.container {
+  padding-bottom: 40px;
+}
+
+/* TESTO VARIE */
 .row > div > h1 {
   font-weight: bold;
   color: white;
-}
-
-.container {
-  padding-bottom: 40px;
 }
 
 .title_row h2 {
