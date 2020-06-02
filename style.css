@@ -1,4 +1,4 @@
-/* REGOLE GENERALI ------------------------------------------*/
+/* REGOLE GENERALI ------------------------------------------ */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ body {
   font-weight: bold;
   color: #031b4e;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .title_row p,
@@ -31,7 +31,7 @@ div > p {
   font-size: 16px;
   font-weight: 300;
   color: #61656e;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 div > h4 {
@@ -51,7 +51,7 @@ div > h4 {
   }
 }
 
-/* HEADER -------------------------------------------*/
+/* HEADER ------------------------------------------- */
 
 /* NAVBAR */
 
@@ -61,7 +61,7 @@ div > h4 {
 
 .ocean_navbar a {
   color: black;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -84,7 +84,11 @@ div > h4 {
   background-color: #0069ff;
   color: #fff;
   border-color: #0069ff;
-  transition: 0.7s;
+  transition: 0.5s;
+}
+
+.navbar-default .navbar-nav > li  a:hover  {
+  color: red;
 }
 
 .nav_logo {
@@ -172,9 +176,9 @@ section.jumbotron p {
   background-repeat: no-repeat;
 }
 
-/* MAIN -----------------------------------------------*/
+/* MAIN --------------------------------------------------- */
 
-/* TABELLA LOGHI */
+/* TABELLA LOGHI --------------------------- */
 .tabella_loghi {
   text-align: center;
   background-color: #f3f5f9;
@@ -184,6 +188,7 @@ section.jumbotron p {
 
 .tabella_loghi h5 {
   font-weight: bold;
+  color: #5e5e5e;
 }
 
 .loghi {
@@ -241,7 +246,7 @@ section.jumbotron p {
   background-repeat: no-repeat;
 }
 
-/* DEPLOY AND SCALE */
+/* DEPLOY AND SCALE ----------------------------- */
 .title_row {
   padding-top: 80px;
 }
@@ -257,6 +262,10 @@ section.jumbotron p {
   font-weight: 400;
   font-size: 18px;
   color: #61656e;
+}
+
+#list_ghost {
+  margin-top: 15px;
 }
 
 .titoli_links {
@@ -279,7 +288,7 @@ section.jumbotron p {
 
 .cont_title_links {
   padding: 18px 0px;
-  margin: 0px;
+  margin: 0;
 }
 
 .row_inside_tab img {
@@ -295,7 +304,7 @@ section.jumbotron p {
   padding: 10px;
 }
 
-/* SLIDES & CAROUSEL (RIFERIMENTO A DUE SEZIONI)----------------------- */
+/* SLIDES & CAROUSEL (RIFERIMENTO A DUE SEZIONI) -------------------- */
 .carousel_scroll {
   background-color: #f3f5f9;
   text-align: center;
@@ -319,8 +328,8 @@ section.jumbotron p {
 .carousel_img p {
   text-align: center;
   padding: 10px 5px;
-  font-weight: 300;
-  color: #61656e;
+  font-weight: bold;
+  color: #454c5c;
 }
 
 .carousel_slider.row span {
@@ -335,8 +344,8 @@ section.jumbotron p {
 }
 
 .circle i {
-  color: #031b4e;
-  border-color: #031b4e;
+  color: #3369e3;
+  border-color: #3369e3;
 }
 
 /* DESKTOP */
@@ -360,7 +369,7 @@ section.jumbotron p {
   }
 }
 
-/* FEATURES---------------------------------------- */
+/* FEATURES ---------------------------------------- */
 .row_icons > div > img {
   padding-top: 20px;
 }
@@ -369,7 +378,7 @@ section.jumbotron p {
   font-weight: bold;
 }
 
-/* AREA CONNECTION SPEED */
+/* AREA CONNECTION SPEED ---------------------------- */
 .connection_speed {
   background: #031B4E url(img/data-center-map.svg);
   background-position: 50%;
@@ -407,7 +416,7 @@ section.jumbotron p {
  margin: 60px 0px;
 }
 
-/* GET STARTED */
+/* GET STARTED ---------------------------------- */
 .get_started {
   background: #031b4e;
 }
@@ -431,4 +440,65 @@ section.jumbotron p {
 .get_started button:hover {
   background-color: #cfcfcf;
   color: #0069ff;
+}
+
+/* FOOTER-------------------------------------- */
+
+footer {
+  background-color: #010e28;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  padding-bottom: 95px;
+  padding-top: 60px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+footer li:hover {
+  color: white;
+}
+
+footer h5 {
+  color: white;
+  font-size: 17px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+footer img {
+  width: 42px;
+  padding-top: 15px;
+}
+
+#copyright {
+  font-size: 12px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  color: grey;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+#made {
+  font-size: 11px;
+  color: #646464;
+  padding-bottom: 0;
+}
+
+.social {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: white;
 }
